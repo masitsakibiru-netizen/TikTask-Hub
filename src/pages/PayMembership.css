@@ -1,0 +1,109 @@
+.membership-page {
+  padding: 2rem 1rem;
+}
+
+.membership-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.membership-plan {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.plan-icon {
+  font-size: 3rem;
+  margin-bottom: 0.75rem;
+}
+
+.membership-plan h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 1rem;
+}
+
+.plan-price {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.price-amount {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--primary);
+}
+
+.price-period {
+  color: #6b7280;
+  font-size: 0.9rem;
+}
+
+.plan-features {
+  list-style: none;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  max-width: 280px;
+  margin: 0 auto;
+}
+
+.plan-features li {
+  font-size: 0.9rem;
+  color: #374151;
+}
+
+.membership-active {
+  text-align: center;
+  padding: 3rem;
+  max-width: 500px;
+  margin: 3rem auto;
+}
+
+.active-icon {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.membership-active h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #166534;
+}
+
+.membership-active p {
+  color: #6b7280;
+  margin-bottom: 1.5rem;
+}
+
+.payment-waiting {
+  text-align: center;
+  padding: 1.5rem;
+  background: #f8fafc;
+  border-radius: 10px;
+}
+
+.payment-waiting p {
+  color: #374151;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.payment-waiting .btn {
+  margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+  .membership-layout {
+    grid-template-columns: 1fr;
+  }
+}

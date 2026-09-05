@@ -1,0 +1,83 @@
+.withdraw-page {
+  padding: 2rem 1rem;
+}
+
+.withdraw-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.card-section-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 1.25rem;
+}
+
+.balance-display {
+  display: flex;
+  gap: 1.5rem;
+  background: #f8fafc;
+  border-radius: 10px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1.25rem;
+  border: 1px solid #e5e7eb;
+}
+
+.balance-display > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.balance-display span {
+  font-size: 0.75rem;
+  color: #6b7280;
+  margin-bottom: 0.2rem;
+}
+
+.balance-display strong {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #111827;
+}
+
+.info-list-items {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  margin-bottom: 1.5rem;
+}
+
+.info-list-items li {
+  font-size: 0.875rem;
+  color: #374151;
+}
+
+.withdraw-summary {
+  background: #f8fafc;
+  border-radius: 10px;
+  padding: 1rem;
+  border: 1px solid #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.ws-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.875rem;
+}
+
+.ws-row span {
+  color: #6b7280;
+}
+
+@media (max-width: 768px) {
+  .withdraw-layout {
+    grid-template-columns: 1fr;
+  }
+}
