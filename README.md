@@ -12,7 +12,7 @@ A full-stack MERN application where users earn money by completing social media 
 - View and complete social media tasks
 - Submit screenshot proof for task completion
 - Track earnings, balance, and withdrawal history
-- Referral system — earn KES 50 per referral
+- Referral system — earn KES 150 per referral
 - Withdraw earnings via M-Pesa
 
 ### Admin Features
